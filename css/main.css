@@ -1,0 +1,189 @@
+/*****Title: Vandora Paws | Rat Terrier Breeders*****/
+
+/**Authors Selected Styles************************
+font-family: 'Kumar One', cursive; //bold for headers
+font-family: 'Architects Daughter', cursive; //simple for paragraphs
+color: #003663; //blue for paw logo
+color: #00cc99; //light green for
+color: #cce6ff; //light blue for
+*************************************************/
+
+
+
+/**Base Styles**/
+
+@meta charset="UTF-8";
+
+body {
+	margin: 5px 5px 5px 5px;
+	font-size: 12px;
+	font-family: 'Architects Daughter';
+}
+
+#home {
+	height: 100%;
+}
+
+#about {
+	height: 100%;
+	background-color: #cce6ff;
+}
+
+#puppies {
+	height: 100%;
+	background-color: #cce6ff;
+}
+
+#border {
+	height: 12px;
+	background-color: #00cc99;
+	font-size: 6px;
+	text-align: right;
+}
+
+#contact {
+	height: 800px;
+	background-color: #cce6ff;
+}
+
+h1, h2, h3 {
+	font-family: 'Kumar One';
+	color: #003663;
+	padding: 1em 0 0 0.5em;
+}
+
+.renavigate {
+	font-family: 'Kumar One';
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 1em;
+}
+
+.renavigate a {
+	text-decoration: none;
+	color: #00cc99;
+}
+
+
+
+/*****Mobile First*****/
+
+.half-width {
+	width: 100%;
+	text-align: center;
+}
+
+/**Header**/
+
+header {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: left;
+}
+
+#pawLogo {
+	max-height: 6em;
+	border: none;
+	padding: 10px 0 10px 0;
+}
+#pawLogoRt {
+	max-height: 6em;
+	border: none;
+	padding: 10px 0 10px 0;
+} 
+
+nav ul li {
+	list-style-type: none;
+	padding: 0 4em 0 0;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: 'Kumar One';
+	font-size: 1.75em;
+	text-color: #003663;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+a:hover {
+	display: block;
+	background-color: #00cc99;
+}
+
+/**About**/
+
+h2 {
+	font-size: 2.75em;
+	text-align: left;
+}
+
+p {
+	padding: 0 1em 0 1em;
+	text-indent: 2em;
+	font-size: 1.5em;
+}
+
+img {
+	max-width: 80%;
+	display: block;
+	margin: 0 auto;
+	border: 0.5em solid #00cc99;
+	border-radius: 0.5em;
+}
+
+#family {
+	display: none;
+}
+
+/**Our Dogs**/
+
+/**Contact Us**/
+
+#contact img {
+	border: none;
+	max-height: 4em;
+	max-width: 3em;
+}
+
+#map {
+	padding: 0 10% 0 10%;
+}
+
+/*****Tablet*****/
+
+@media(min-width: 765px)
+{
+.half-width {
+	width: 50%;
+	float: right;
+}
+.container {
+	height: 100%;
+}
+#pawLogo {
+	float:left;
+}
+#pawLogoRt {
+	display: none;
+}
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+nav ul li a {
+	font-size: 1em;
+}
+p {
+	float: left;
+}
+#family3 {
+	display: block;
+	margin: 10px 10px 10px 10px;
+	width: 40%;
+	float: right;
+}
+}
